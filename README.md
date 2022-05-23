@@ -1,9 +1,9 @@
-#Coding
+# Coding
 
-##Question 1, 3 and 4:
+## Question 1, 3 and 4:
 
-Insertion and Inorder traversal:
-
+## Insertion and Inorder traversal:
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -69,7 +69,7 @@ int main()
 	
 	return 0;
 }
-
+```
 Question 2 and 12:
 
 Searching in linked list and Simple Linked List Implementation:
