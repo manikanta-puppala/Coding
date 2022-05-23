@@ -1,8 +1,6 @@
 # Coding
 
-## Question 1, 3 and 4:
-
-## Insertion and Inorder traversal:
+## Question 1, 3 and 4: Insertion and Inorder traversal:
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -70,10 +68,8 @@ int main()
 	return 0;
 }
 ```
-Question 2 and 12:
-
-Searching in linked list and Simple Linked List Implementation:
-
+## Question 2 and 12: Searching in linked list and Simple Linked List Implementation:
+```
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
@@ -121,11 +117,10 @@ int main()
 	search(head, 21)? printf("Yes") : printf("No");
 	return 0;
 }
+```
 
-Question 5:
-
-Queue (Enque – Dequeue):
-
+## Question 5: Queue (Enque – Dequeue):
+```
 #include <stdio.h>
 #define SIZE 5
 
@@ -185,14 +180,12 @@ void display() {
   printf("\n");
 }
 
+```
 
 
 
-
-Question 6 and 7:
-
-nPr and nCr :
-
+## Question 6 and 7: nPr and nCr :
+```
 #include <stdio.h>
 long factorial(int);
 long find_ncr(int, int);
@@ -225,11 +218,10 @@ long factorial(int n) {
 		result = result*c;
 	return result;
 }
+```
 
-Question 8:
-
-Print Address and Value:
-
+## Question 8: Print Address and Value:
+```
 #include <stdio.h>
 int main() {
     int a=3;
@@ -238,11 +230,9 @@ int main() {
     printf("%p\n",&a);
     return 0;
 }
-
-Question 9:
-
-Adding 2 numbers using pointers:
-
+```
+## Question 9: Adding 2 numbers using pointers:
+```
 #include <stdio.h>
 int main()
 {
@@ -255,11 +245,10 @@ int main()
 	printf("Sum of the numbers = %d\n", sum);
 	return 0;
 }
+```
 
-Question 10:
-
-One Variable with Many pointers:
-
+## Question 10: One Variable with Many pointers:
+```
 #include <stdio.h>
 
 int main() {
@@ -276,11 +265,10 @@ int main() {
     printf("%d\n",a);
     return 0;
 }
+```
 
-Question 11:
-
-String Reversal:
-
+## Question 11: String Reversal:
+```
 #include <stdio.h>  
 #include <string.h>  
   
@@ -316,11 +304,10 @@ int main()
    for(i=0;i<len;i++)  
       pop();  
 }
+```
 
-Question 13:
-
-Basic Stack:
-
+## Question 13: Basic Stack:
+```
 #include <stdio.h>
 
 int MAXSIZE = 8;       
@@ -393,14 +380,9 @@ int main() {
    
    return 0;
 }
-
-
-
-
-Question 14:
-
-Biomial Distribution:
-
+```
+## Question 14: Biomial Distribution:
+```
 #include<stdio.h>
 #include<math.h>
 int facto(int);
@@ -442,9 +424,9 @@ int facto(int num){
     facto(num-1)*num;
 
 }
-
-Poisson Distribution:
-
+```
+## Poisson Distribution:
+```
 #include<stdio.h>
 int facto(int );
 int main(){
@@ -464,11 +446,9 @@ int facto(int a){
     return facto(a-1)*a;
 }
 
-
-Question 15:
-
-Print all Permutations:
-
+```
+## Question 15: Print all Permutations:
+```
 #include<stdio.h>  
 #include<string.h>  
 void generatePermutation(char * , int , int );  
@@ -499,3 +479,4 @@ void generatePermutation(char *str,const int start, int end)
   }  
   printf("%s\n",str);  
 }
+```
