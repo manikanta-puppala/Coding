@@ -1,6 +1,6 @@
 # Coding
 
-## Question 1, 3 and 4: Insertion and Inorder traversal:
+## Question 1, 3 and 4: Binary Search Tree Insertion and Inorder traversal:
 ```
 #include <stdio.h>
 #include <stdlib.h>
